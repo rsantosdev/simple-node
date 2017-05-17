@@ -8,4 +8,4 @@ var myServer = http.createServer(function (request, response) {
 }); //create a server
 
 //Bind server to a port
-myServer.listen(process.env.port || 3000);
+myServer.listen(2222);
